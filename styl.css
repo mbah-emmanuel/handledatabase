@@ -1,0 +1,304 @@
+body{
+    background-image: url("Pictures/Landingpage.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+head{
+    background-color: grey;
+}
+#div{
+    margin: auto;
+    width: 80%; 
+    padding: 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.no_of_clients_header{
+    color:white;
+    width: 20%;
+    display: inline-block;
+    background-color: rgb(7, 7, 88);
+    border-style: solid;
+    border-color: white;
+    margin: auto;
+    margin-top: 2;
+    height: 10%;
+    font-size: large;
+    cursor: pointer;
+}
+
+.no_of_purchases_header{
+    color:  whti;
+    width: 20%;
+    display: inline-block;
+    background-color: rgb(247, 151, 7);
+    border-style: solid;
+    border-color: white;
+    margin: auto;
+    margin-top: 2%;
+    font-size: large;
+    cursor: pointer;
+}
+.total_header{
+    color: white;
+    width: 20%;
+    display: inline-block;
+    background-color: grey;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    margin: auto;
+    display: flexbox;
+    margin-top: 2%;
+    font-size: large;
+    cursor: pointer;
+}
+
+.no_of_clients{
+   color: white;
+   font-size: 50px;
+}
+
+.no_of_purchases{
+   color: rgb(7, 7, 88);
+   font-size: 50px;
+}
+
+.total{
+   color: black;
+   font-size: 50px;
+}
+
+.more{
+    background-color: none;
+    text-align: center;
+    margin-top: 1%;
+    background-color:white; 
+    margin: auto;
+    margin-top: 4%;
+}
+
+.b{
+    background-color: blue;
+    cursor: pointer;
+    padding: 12 20;
+}
+
+.c{
+    background-color: green;
+    cursor: pointer;
+    padding: 12 20;
+}
+
+.d{
+    background-color: red;
+    cursor: pointer;
+    padding: 12 20;
+}
+
+.e{
+    background-color: purple;
+    cursor: pointer;
+}
+
+.f{
+    background-color: violet;
+    cursor: pointer;
+}
+
+
+.h{
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    background-color:none; 
+}
+
+
+#couts{
+    margin: auto;
+    margin-top: 4%;
+    width: 30%;
+    height: 20%;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+    display: none;
+   
+}
+
+.cout{
+    border-style: solid;
+    border-color: blue;
+    width: 10%px;
+}
+
+.emai{
+    border-style: solid;
+    border-color: green;
+    width: 10%px;
+}
+
+.whatsap{
+    border-style: solid;
+    border-color: red;
+    width: 10%px;
+}
+
+.prenom{
+    border-style: solid;
+    border-color: purple;
+    width: 10%px;
+}
+
+.pay{
+    border-style: solid;
+    border-color: violet;
+    width: 10%px;
+}
+
+.dat{
+    border-style: solid;
+    width: 10%px;
+}
+
+#email{
+    margin: auto;
+    margin-top: 4%;
+    width: 30%;
+    height: 20%;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+    display: none;
+
+    
+
+}
+
+#whatsapp{
+    margin: auto;
+    margin-top: 4%;
+    width: 30%;
+    height: 20%;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+    display: none;
+
+}
+
+#prenom{
+    margin: auto;
+    margin-top: 4%;
+    width: 30%;
+    height: 20%;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+    display: none;
+}
+
+#pays{
+    margin: auto;
+    margin-top: 4%;
+    width: 30%;
+    height: 20%;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+    display: none;
+}
+
+#date{
+    margin: auto;
+    margin-top: 4%;
+    width: 30%;
+    height: 20%;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+    display: none;
+
+}
+
+.sumettre{
+    margin: auto;
+    margin-top: 0%;
+    width: 10%;
+    display: none;
+
+}
+
+#code{
+    margin: auto;
+    background-color: white;
+    font-size: larger;
+    color: white;
+}
+
+#form_1{  
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    background-color: white;
+    height: 370px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    padding: 5px 5px;
+}
+
+#form_2{  
+    border-style: solid;
+    border-color: green;
+    text-align: center;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    padding: 5px 5px;
+}
+
+#form_3{  
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    background-color: white;
+    height: 90px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    padding: 5px 5px;
+}
+
+input{
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.buttons{
+    padding: 12 20;
+}
+
+.input_1{
+    color: blue;
+}
+.input_2{
+    color: green
+}
+.input_3{
+    color: red;
+}
+

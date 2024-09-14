@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="color : blue">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styl.css">
+    <script src="scriptos.js"></script>
+  
+</head>
+<body>
+    <div id="div">
+    <form action="clients.php" class="div1">
+        <button class="no_of_clients_header">nombre de clients</button>
+    </form>
+    <form action="achats.php" class="div2">
+        <button class="no_of_purchases_header">nombre d'Achats</button>
+    </form>
+    <form action="income.php" class="div3">
+        <button class="total_header">revenu total</button>
+    </form>
+    </div>
+
+    <div class="more">
+        <h1 class="h">Trier par :</h>
+        <button style="width: 100px; font-size: medium;" class="b" onclick="myFunction1()" name="couts">couts</button>
+        <button style="width: 100px; font-size: medium;" class="c" onclick="myFunction2()" name="email">email</button>
+        <button style="width: 100px; font-size: medium;" class="d" onclick="myFunction3()" name="whatsapp">whatsapp</button>
+        <button style="width: 100px; font-size: medium;" class="e" onclick="myFunction4()" name="prenom">prenom</button>
+        <button style="width: 100px; font-size: medium;" class="f" onclick="myFunction5()" name="pays">pays</button>
+        <button style="width: 100px; font-size: medium;" class="g" onclick="myFunction6()" name="date">date</button>
+    </div>
+
+</div>
+<form id="couts" action="work.php" method="post">
+    <input class="cout" placeholder="entre le montant" name="couts" required>
+    <button  name="sumettre">sumettre</button>
+</form>
+<form id="email" action="email.php" method="post">
+    <input class = "emai" placeholder="entre l'address mail" name="email" required>
+    <button name="sumettre">sumettre</button>
+</form>
+<form id="whatsapp" action="whatsapp.php" method="post">
+    <input  class ="whatsap" placeholder="entre le numero whatsapp" name="whatsapp" required>
+    <button  name="sumettre" none;>sumettre</button>
+</form>
+<form id="prenom" action="prenom.php" method="post">
+    <input class ="preno" placeholder="entre le prenom" name="prenom" required>
+    <button  name="sumettre">sumettre</button>
+</form>
+<form id="pays" action="pays.php" method="post">
+    <input class ="pay"placeholder="entre le nom de pay" name="pays" required>
+    <button  name="sumettre">sumettre</button>
+</form>
+<form id="date" action="date.php" method="post">
+    <input  class ="dat" placeholder="entre la date" name="date" required>
+    <button  name="sumettre">sumettre</button>
+</form>
+       
+</html>

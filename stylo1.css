@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(247, 151, 7); ;
+}
+h2{
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin-top: 11%;
+    font-size: 40px;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    color: black;
+    margin-top: 2%;
+    font-size: 100px;
+    border: 500px;
+    background-color: white;
+}
+div{
+    color: white;
+}

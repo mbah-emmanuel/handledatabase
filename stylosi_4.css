@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+    background-image: url("Pictures/some_people_using_phone.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div{
+    background-color: white;
+    color: black;
+    margin-top: 0.2%;
+    text-align: center;
+    font-size: large;
+    font-weight: 200;
+    width: 77.8%;
+    height: 100%;
+    margin: 0.5% auto; 
+    padding: 12px 20px;
+    position: sticky;
+    top: 20px;
+    
+}
+
